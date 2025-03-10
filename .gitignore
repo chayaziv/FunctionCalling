@@ -1,0 +1,82 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+# קבצי Python בינאריים
+*.py[cod]
+__pycache__/
+*.so
+
+# סביבת פיתוח וירטואלית
+venv/
+.env/
+.envrc
+*.venv
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# קבצי קונפיגורציה וסודות
+*.env
+*.json
+config.yaml
+secrets.yaml
+instance/
+*.pem
+*.key
+
+# לוגים וקבצים זמניים
+logs/
+*.log
+*.bak
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# קבצים של Jupyter Notebook
+.ipynb_checkpoints/
+
+# קבצי קומפילציה ופלט
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# קבצי mypy, pytest ו־coverage
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+.cache/
+
+# VSCode ו־PyCharm
+.vscode/
+.idea/
+*.iml
+
+# Docker
+docker-compose.override.yml
+
+# Git
+.git/
